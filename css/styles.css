@@ -104,6 +104,10 @@ table {
 .cards-box {
 	text-align: center;
 }
+.cards-box h2{
+	font-size: 20px;
+	font-weight: 700;
+}
 .cards-box div{
 	width: 380px;
 	height: auto;
@@ -123,6 +127,8 @@ table {
 	box-sizing: border-box;
 	margin: 15px;
 }
-
+.first-box:hover, .second-box:hover, .third-box:hover, .fourth-box:hover, .fifth-box:hover, .sixth-box:hover{
+	background-color: rgb(70, 70, 70);
+}
 
 
