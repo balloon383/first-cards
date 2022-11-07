@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url('../img/background.jpg');
     background-color: rgb(202, 202, 202);
 	font-family: 'Inter Tight', sans-serif;
 }
@@ -49,6 +50,8 @@ table {
     width: 1300px;
     background-color: gray;
     box-sizing: border-box;
+	border: 0ch solid;
+	border-radius: 10px;
 }
 
 /* HEADER */
