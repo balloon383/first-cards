@@ -134,9 +134,14 @@ table {
 }
 .cards-box p{
 	font-size: 18px;
+	margin: 5px auto;
+}
+.cards-box ul{
+	margin-bottom: 10px;
 }
 .cards-box li {
 	font-size: 14px;
+	margin-bottom: 5px;
 }
 .first-box-img, .second-box-img, .third-box-img, .fourth-box-img, .fifth-box-img, .sixth-box-img{
 	width: 360px;
@@ -156,6 +161,7 @@ table {
 	transition: opacity 0.2s, background 0.2s;
 }
 .first-box:hover, .second-box:hover, .third-box:hover, .fourth-box:hover, .fifth-box:hover, .sixth-box:hover{
+	color: rgb(179, 179, 179);;
 	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
 	opacity: 1;
 	transition: opacity 0.2s, background 0.2s;
