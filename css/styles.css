@@ -49,6 +49,8 @@ table {
     background-color: gray;
     box-sizing: border-box;
 }
+
+/* HEADER */
 .header{
 	display: inline-block;
 	width: 1290px;
@@ -96,6 +98,27 @@ table {
 	background-color: rgb(70, 70, 70);
 }
 
+/* CARDS */
+/* FIRST CARD */
+.cards-box div{
+	width: 380px;
+	height: auto;
+}
+.first-box-img, .second-box-img, .third-box-img, .fourth-box-img, .fifth-box-img, .sixth-box-img{
+	width: 360px;
+	height: auto;
+	margin: 5px;
+	border: 1px solid gray;
+	border-radius: 8px;
+}
+.first-box, .second-box, .third-box, .fourth-box, .fifth-box, .sixth-box {
+	border: 1px solid;
+	border-radius: 8px;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 15px;
+}
 
 
 
