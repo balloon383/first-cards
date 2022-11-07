@@ -28,6 +28,8 @@ body {
 	background-image: url('../img/background.jpg');
     background-color: rgb(202, 202, 202);
 	font-family: 'Inter Tight', sans-serif;
+	font-size: 0;
+	
 }
 ol, ul {
 	list-style: none;
@@ -62,14 +64,16 @@ table {
 	background-color: rgb(70, 70, 70);
 	color: white;
 }
-.header div{
+.header{
 	font-size: 0;
+	text-align: center;
 }
 .header .logo{
 	font-size: 20px ;
 	display: inline-block;
 	padding: 5px;
 	text-transform: uppercase ;
+
 }
 .header .cards-title{
 	font-size: 25px;
@@ -82,12 +86,10 @@ table {
 }
 
 .header .button{
-	font-size: 15px;
+	
 	display: inline-block;
 	text-transform: uppercase ;
 	margin-left: 35px;
-
-
 }
 .header button{
 	background-color: gray;
@@ -96,7 +98,22 @@ table {
 	color: white;
 	cursor: pointer;
 	padding: 5px;
-	font-size: 15px;
+	font-size: 16px;
+	transition: opacity 0.2s, background 0.2s;
+	
+}
+.header button:hover{
+	background-color: gray;
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 16px;
+	opacity: 1;
+	transition: opacity 0.2s, background 0.2s;
+	background: rgb(70, 70, 70);
+	
 }
 .header button:hover{
 	background-color: rgb(70, 70, 70);
@@ -129,9 +146,16 @@ table {
 	display: inline-block;
 	box-sizing: border-box;
 	margin: 15px;
+	opacity: 0.8;
+	transition: opacity 0.2s, background 0.2s;
 }
 .first-box:hover, .second-box:hover, .third-box:hover, .fourth-box:hover, .fifth-box:hover, .sixth-box:hover{
-	background-color: rgb(70, 70, 70);
+	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
+	opacity: 1;
+	transition: opacity 0.2s, background 0.2s;
+  	background: rgb(70, 70, 70);
+	
+
 }
 
 
