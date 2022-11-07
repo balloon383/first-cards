@@ -106,7 +106,7 @@ table {
 }
 .first-box-img, .second-box-img, .third-box-img, .fourth-box-img, .fifth-box-img, .sixth-box-img{
 	width: 360px;
-	height: auto;
+	height: 360px;
 	margin: 5px;
 	border: 1px solid gray;
 	border-radius: 8px;
