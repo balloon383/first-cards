@@ -55,7 +55,6 @@ table {
     margin: 0 auto;
     width: 1300px;
     background-color: gray;
-    box-sizing: border-box;
 	border: 0ch solid;
 	border-radius: 10px;
 }
@@ -87,7 +86,7 @@ table {
 	padding: 5px;
 	text-align: center;
 	text-transform: uppercase ;
-	box-sizing: border-box;
+
 }
 
 .header .button{
@@ -160,7 +159,6 @@ table {
 	border-radius: 8px;
 	text-align: center;
 	display: inline-block;
-	box-sizing: border-box;
 	margin: 15px;
 	opacity: 0.8;
 	transition: opacity 0.2s, background 0.2s;
