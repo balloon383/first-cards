@@ -132,6 +132,12 @@ table {
 	width: 380px;
 	height: auto;
 }
+.cards-box p{
+	font-size: 18px;
+}
+.cards-box li {
+	font-size: 14px;
+}
 .first-box-img, .second-box-img, .third-box-img, .fourth-box-img, .fifth-box-img, .sixth-box-img{
 	width: 360px;
 	height: 360px;
