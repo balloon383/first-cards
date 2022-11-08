@@ -31,7 +31,6 @@ body {
 	background-image: url('../img/background.jpg');
     background-color: rgb(202, 202, 202);
 	font-family: 'Inter Tight', sans-serif;
-	font-size: 0;
 	opacity: 0.97;
 	
 }
@@ -88,7 +87,6 @@ table {
 	text-transform: uppercase ;
 
 }
-
 .header .button{
 	
 	display: inline-block;
@@ -126,16 +124,14 @@ table {
 /* CARDS */
 /* FIRST CARD */
 .cards-box {
+	font-size: 0;
 	text-align: center;
 }
 .cards-box h2{
 	font-size: 20px;
 	font-weight: 700;
 }
-.cards-box div{
-	width: 380px;
-	height: auto;
-}
+
 .cards-box p{
 	font-size: 18px;
 	margin: 5px auto;
@@ -154,23 +150,29 @@ table {
 	border: 1px solid gray;
 	border-radius: 8px;
 }
-.first-box, .second-box, .third-box, .fourth-box, .fifth-box, .sixth-box {
-	border: 1px solid;
-	border-radius: 8px;
+.card {
+	width: 433px;
+	height: auto;
+	padding: 15px;
 	text-align: center;
 	display: inline-block;
-	margin: 15px;
 	opacity: 0.8;
 	transition: opacity 0.2s, background 0.2s;
+
 }
-.first-box:hover, .second-box:hover, .third-box:hover, .fourth-box:hover, .fifth-box:hover, .sixth-box:hover{
+.card-wrapper{
+	border: 1px solid;
+	border-radius: 8px;
+	padding: 15px;
+}
+.card-wrapper:hover{
 	color: rgb(179, 179, 179);;
 	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
 	opacity: 1;
 	transition: opacity 0.2s, background 0.2s;
   	background: rgb(70, 70, 70);
-	
-
 }
+
+
 
 
